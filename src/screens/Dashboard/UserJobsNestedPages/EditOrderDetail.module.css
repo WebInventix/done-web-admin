@@ -1,0 +1,12 @@
+
+.member_ship_agree_continue_btn {
+    background: var(
+      --Orange,
+      linear-gradient(180deg, #f15a24 0%, #c53f10 100%)
+    ) !important;
+    color: white !important;
+    transition: background-color 0.3s ease-in !important;
+    width: 100% !important;
+    height: auto !important;
+    border-radius: 40px !important;
+  }

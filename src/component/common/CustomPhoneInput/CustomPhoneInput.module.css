@@ -1,0 +1,16 @@
+.phone_inp:hover {
+    border: 1px solid black;
+  }
+  .phone_inp:focus {
+    border: 1px solid rgb(241, 90, 36);
+  }
+  
+  .phone_input_container {
+    width: 100%;
+    height: 56px;
+  }
+  
+  
+  .phone_inp_error{
+      border-color: #d32f2f;
+  }

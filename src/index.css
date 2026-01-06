@@ -1,0 +1,211 @@
+@font-face {
+  font-family: "Raleway", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap")
+    format("woff2");
+  /* font-family: 'Rajdhani', sans-serif; */
+
+  /* url("path/to/font.woff") format("woff"); */
+  /* Add additional formats if necessary */
+  /* @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap') */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* --primaryColour: #fa8232; */
+  --primaryColour: #f15a24;
+}
+
+body {
+  margin: 0;
+  font-family: Raleway, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* .css-5xe99f-MuiLinearProgress-bar1{
+  background-color: #F39473 !important;
+} */
+
+html {
+  font-size: 0.8rem;
+}
+
+.globleGradient {
+  background-image: linear-gradient(45deg, #3d75c8, #df6011);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.globleGradientBlue {
+  /* border-radius: 0px 0px 20px 20px; */
+  background: var(
+    --Blue-colour,
+    linear-gradient(180deg, #071d5b 0%, #031444 100%)
+  );
+  box-shadow: 0px 22px 33.6px 0px rgba(0, 0, 0, 0.22);
+}
+
+.globleVerticalLine {
+  width: 1px;
+  /* Line ki width ko adjust karein */
+  height: 19px;
+  /* Container ki height tak extend ho */
+  background-color: #9f9f9f;
+  /* Line ki color */
+  margin: 0 10px;
+  /* Line ke left-right margin ko adjust karein */
+}
+
+.mainHeading {
+  font-size: 30px !important;
+  font-weight: 700 !important;
+}
+.subHeading {
+  font-size: 22px !important;
+  font-weight: 600 !important;
+}
+.mainPara {
+  font-size: 12px !important;
+  font-weight: 400 !important;
+}
+.secondSubHeading {
+  font-size: 24px !important;
+  font-weight: 500 !important;
+}
+.subpara {
+  font-size: 20px !important;
+  font-weight: 500 !important;
+}
+
+.slick-active .custom-dot {
+  height: 17px !important;
+  width: 17px !important;
+  background-color: #df6011;
+}
+
+.slick-dots{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  position: absolute;
+  bottom: 10px;  /* Adjust as needed */
+  width: 100%;
+}
+
+@media only screen and (max-width: 640px) {
+  html {
+    font-size: 1rem;
+  }
+  .mainHeading {
+    font-size: 22px !important;
+    font-weight: 500 !important;
+  }
+  .subHeading {
+    font-size: 16px !important;
+    font-weight: 600 !important;
+  }
+  .mainPara {
+    font-size: 8px !important;
+    font-weight: 300 !important;
+  }
+  .secondSubHeading {
+    font-size: 18px !important;
+    font-weight: 500 !important;
+  }
+  .subpara {
+    font-size: 16px !important;
+    font-weight: 400 !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  html {
+    font-size: 1rem;
+  }
+  .mainHeading {
+    font-size: 24px !important;
+    font-weight: 500 !important;
+  }
+  .subHeading {
+    font-size: 18px !important;
+    font-weight: 500 !important;
+  }
+  .mainPara {
+    font-size: 10px !important;
+    font-weight: 400 !important;
+  }
+  .secondSubHeading {
+    font-size: 20px !important;
+    font-weight: 500 !important;
+  }
+  .subpara {
+    font-size: 18px !important;
+    font-weight: 500 !important;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .mainHeading {
+    font-size: 26px !important;
+    font-weight: 600 !important;
+  }
+  .subHeading {
+    font-size: 20px !important;
+    font-weight: 600 !important;
+  }
+  .mainPara {
+    font-size: 12px !important;
+    font-weight: 400 !important;
+  }
+  .secondSubHeading {
+    font-size: 24px !important;
+    font-weight: 500 !important;
+  }
+  .subpara {
+    font-size: 20px !important;
+    font-weight: 500 !important;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+}
+
+.custom-selected {
+    background: var(--Orange, linear-gradient(180deg, #f15a24 0%, #c53f10 100%));
+    color: white !important;
+    border: none !important;
+    border-radius: 50%;
+  }
+  
+  .custom-recent-selected {
+    border: 2px solid white !important;
+    border-radius: 50%;
+  }
+  
+  /* Custom styles for the arrows */
+  .rdp-chevron {
+    fill: #df6011 !important; /* Theme orange color */
+  }
+  
+  .rdp-nav_button:hover {
+    background-color: #ffd580 !important; /* Lighter orange hover effect */
+    color: #df6011 !important;
+  }
+  
+  /* Custom styles for today's date */
+  .rdp-today {
+    color: #df6011 !important; /* Light orange color */
+  }
+  .rdp-today.custom-selected {
+    color: white !important; /* Light orange color */
+  }
+
+  .rdp-day[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

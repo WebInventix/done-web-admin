@@ -1,0 +1,192 @@
+.main_dashoard {
+  background-color: #0968bd;
+  flex-shrink: 0;
+  max-height: 100vh;
+  overflow-y: scroll;
+  width: 230px;
+  scrollbar-width: none;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid gray;
+  position: fixed;
+  height: 100vh;
+  z-index: 100001;
+}
+
+.main_dashoard::-webkit-scrollbar {
+  width: 0.5px;
+}
+
+.iconsList {
+  padding-left: 50px;
+  padding-right: 40px;
+}
+
+.iconsbtn {
+  color: black;
+  margin-right: 20px;
+  align-items: center;
+}
+
+.contentparent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 18px 0;
+  cursor: pointer;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+@media (max-width: 1200px) {
+  .main_dashoard {
+    width: 70px;
+    text-align: center;
+  }
+
+  .iconsbtn {
+    margin-right: 0;
+  }
+
+  .iconsList {
+    align-items: center;
+    cursor: pointer;
+    padding: 12px 0;
+    width: 100%;
+    color: black;
+  }
+
+  .contentparent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* padding: 18px 0; */
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 765px) {
+  .main_dashoard {
+    overflow-x: auto;
+    overflow-y: hidden;
+    flex-direction: row;
+    width: 100%;
+    z-index: 1001;
+    height: 10vh;
+
+    position: fixed;
+    /* top: 0; */
+    bottom: 0;
+    z-index: 10001;
+    border-top: 1px solid gray;
+  }
+
+  .main_dashoard::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+  }
+
+  .iconsList {
+    text-align: center;
+    /* padding: 12px 15px; */
+  }
+}
+
+/*  Templates SideBar Style Start */
+
+/* .nav {
+
+    position: fixed;
+    width: 282px;
+    top: 0;
+    bottom: 0;
+    background-color: #fafafa;
+    padding: 15px 0;
+    transition: left 1s ease-in .5s;
+    margin-top: 35px;
+}
+
+.nav:after {
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: inherit;
+    color: #ffffff;
+    position: absolute;
+    padding: 15px;
+    background-color: #fafafa;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+
+}
+
+
+.ul {
+
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+.positionClass {
+    position: relative;
+}
+
+.container {
+
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: block;
+}
+
+.container:left {
+
+    text-align: left;
+    width: 25%;
+    margin: 0 15px;
+
+}
+
+.container:right {
+
+    text-align: left;
+    width: 75%;
+    margin: 0 15px;
+
+} */
+
+.body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  z-index: 1;
+  background-repeat: no-repeat;
+  width: calc(100% - 230px);
+  margin-left: 230px;
+}
+
+.contrast-bg {
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+@media (max-width: 1200px) {
+  .body {
+    width: calc(100% - 70px);
+    margin-left: 70px;
+  }
+}
+
+@media (max-width: 765px) {
+  .body {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+/*  Templates SideBar Style End */

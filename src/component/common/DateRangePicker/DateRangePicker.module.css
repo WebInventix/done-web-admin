@@ -1,0 +1,30 @@
+
+.custom-selected {
+    background: var(--Orange, linear-gradient(180deg, #f15a24 0%, #c53f10 100%));
+    color: white !important;
+    border: none !important;
+    border-radius: 50%;
+  }
+  
+  .custom-recent-selected {
+    border: 2px solid white !important;
+    border-radius: 50%;
+  }
+  
+  /* Custom styles for the arrows */
+  .rdp-chevron {
+    fill: #df6011 !important; /* Theme orange color */
+  }
+  
+  .rdp-nav_button:hover {
+    background-color: #ffd580 !important; /* Lighter orange hover effect */
+    color: #df6011 !important;
+  }
+  
+  /* Custom styles for today's date */
+  .rdp-today {
+    color: #df6011 !important; /* Light orange color */
+  }
+  .rdp-today.custom-selected {
+    color: white !important; /* Light orange color */
+  }

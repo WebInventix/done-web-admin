@@ -1,0 +1,39 @@
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1rem;
+    gap: .5rem;
+}
+
+.cardsec {
+    border-radius: 0px 0px 10px 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.info>h4 {
+    color: #ffffff;
+}
+
+.info>p {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    font-size: .6rem;
+}
+
+.info>p>svg {
+    font-size: .8rem;
+    color: #df6011;
+}
+
+.cardinfobtn {
+    cursor: pointer !important;
+    text-transform: uppercase !important;
+    font-size: .8rem !important;
+    color: #fff !important;
+    font-weight: bold !important;
+    border: none !important;
+    border-radius: .3rem !important;
+    padding: .5rem 1rem !important;
+}

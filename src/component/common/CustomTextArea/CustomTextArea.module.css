@@ -1,0 +1,31 @@
+/* TextArea.css */
+
+.text_area_container {
+  margin: 15px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.text_area_label {
+  color: #000;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  /* 125% */
+}
+
+.text_area {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+  transition: border-color 0.3s;
+}
+
+.text_area:focus {
+  border-color: #007bff;
+  outline: none;
+}

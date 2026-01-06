@@ -1,0 +1,12 @@
+.handleBtn {
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+    background-color: #F15A24;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

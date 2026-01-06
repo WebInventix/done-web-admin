@@ -1,0 +1,1 @@
+export const img_url = `https://donerightaway.com/jiff-done-backend/public/`

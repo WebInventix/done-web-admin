@@ -1,0 +1,64 @@
+.LoginProButton {
+    display: inline-flex;
+    padding: 18px 35px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 8px;
+    border-radius: 10px;
+    border: 1px solid #FFF;
+}
+
+.LoginProText {
+    color: #FFF;
+    text-align: center;
+    font-family:sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    /* 112.5% */
+}
+
+.auth_Heading {
+    color: #232323;
+    font-family:sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    letter-spacing: -1.6px;
+}
+
+.auth_sub_Heading {
+    align-self: stretch;
+    color: #969696;
+    font-family:sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 27px */
+}
+.transparent-bg {
+    background-color: rgba(255, 255, 255, 0.171); /* Transparent white */
+    backdrop-filter: blur(3px); /* Blur effect */
+    border-radius: 30px;
+    height: 80vh;
+}
+.bgImageSignup{
+    background-image: url("../../assets/auth_image.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    margin: 10px 0px;
+}
+@media(max-width: 900px){
+    .LoginProButton{
+        border: 1px solid black;
+    }
+    .LoginProText{
+        color: black;
+    }
+}

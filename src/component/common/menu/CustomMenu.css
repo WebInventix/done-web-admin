@@ -1,0 +1,48 @@
+/* CustomMenu.css */
+
+.custom-menu {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .menu-button {
+    background-color: transparent;
+    border: none;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 8px 16px;
+    outline: none;
+  }
+  
+  .menu-items {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    z-index: 1;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 8px 8px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .menu-item {
+    display: block;
+    width: 100%;
+    padding: 11px 43px;
+    color: #333;
+    font-size: 16px;
+    text-align: left;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menu-item:hover {
+    background-color: #f5f5f5;
+  }
+  

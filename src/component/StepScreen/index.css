@@ -1,0 +1,162 @@
+/*  ========================= First Step ========================= */
+.When-should {
+    color: #000;
+    font-family: sans-serif;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 48px;
+    /* 75% */
+}
+
+.availible-date {
+    color: #000;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 32px;
+    /* 150% */
+}
+
+.Timing-constraints {
+    color: #000;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 48px;
+    /* 125% */
+}
+
+.Timing-constraints-container {
+    /* width: 996px; */
+    height: 120px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid #F15A24;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #000;
+    font-weight: 400;
+    padding: 20px;
+}
+
+.next-btn {
+    display: inline-flex;
+    padding: 10px 57px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    background: #F15A24;
+    color: white;
+    margin-top: 40px;
+    width: 150px;
+    cursor: pointer;
+}
+
+/*  ========================= First Step ========================= */
+/*  ========================= Second Step ========================= */
+
+.upload-image-container {
+    width: 250px;
+    height: 160px;
+    flex-shrink: 0;
+    background-color: rgb(254 238 233);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.add-photo-title {
+    color: #000;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    /* 75% */
+}
+
+.next-btn-outline {
+    display: inline-flex;
+    padding: 10px 57px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    border: 1px solid #F15A24;
+    color: #F15A24;
+    margin-top: 40px;
+    width: 150px;
+    cursor: pointer;
+}
+
+/*  ========================= Second Step ========================= */
+/*  ========================= Last Step ========================= */
+.heading-name-text {
+    color: #000;
+    font-family: sans-serif;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    /* 75% */
+}
+
+.heading-side-text {
+    color: #000;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 125% */
+}
+
+.Service-Name-head {
+    color: #000;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    /* 93.75% */
+}
+
+.Service-Name-list {
+    color: #000;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 150% */
+}
+
+.need-to-cancel-caontainer {
+    height: 100px;
+    flex-shrink: 0;
+    background-color: rgb(254 238 233);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.service-list {
+    color: #000;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    /* 125% */
+}
+
+/*  ========================= Last Step ========================= */

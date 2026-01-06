@@ -1,0 +1,65 @@
+.tabs_container {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .tabs {
+    width: fit-content;
+    display: flex;
+    align-items: stretch;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+    /* max-height: 64px; */
+  }
+  
+  .tab_button {
+    flex: 1;
+    background-color: #f0eeee;
+    border: none;
+    padding: 10px 40px;
+    cursor: pointer;
+    font-size: 16px;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+  }
+  
+  .tab_button:hover {
+    background-color: #ddd;
+  }
+  
+  .tab_button.active {
+    background: var(--Orange, linear-gradient(180deg, #F15A24 0%, #C53F10 100%));
+    color: white;
+    border-bottom: 2px solid #C53F10;
+  }
+  
+  .tab_content {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .middle_tab {
+    border-left: 0.7px solid rgb(224, 224, 224);
+    border-right: 0.7px solid rgb(224, 224, 224);
+  }
+  
+  @media (max-width: 600px) {
+    .tabs {
+      margin: 15px auto;
+      width: 100%;
+    }
+    .tab_button {
+      font-size: 11px;
+      white-space: normal;
+      padding: 10px 3%;
+    }
+  }
+  

@@ -1,0 +1,69 @@
+.slider_img_wrapper {
+  position: relative;
+  width: 100%;
+  height: 350px; /* Adjust height as needed */
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 20px 30px;
+}
+
+/* slider_img_box */
+.slider_img_box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../../assets/slide_1.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.slider_img_box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.45); /* Black color with 45% opacity */
+  z-index: 1; /* Ensure the overlay is above the background image */
+  border-radius: 10px; /* Ensure the overlay follows the border-radius of the parent */
+}
+
+.slider_content_box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  z-index: 1;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-pagination-bullet {
+  background-color: white;
+}
+
+

@@ -1,0 +1,39 @@
+.searchSelect {
+  background-color: #ebebeb;
+  outline: none;
+  border: none;
+  color: black;
+  width: 100%;
+  margin: 10 10;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 7px;
+  font-size: 16;
+  appearance: none;
+}
+
+.searchSelect::after {
+  content: "\25BC";
+  /* Unicode character for down arrow */
+  position: absolute;
+  right: 30px;
+  /* Adjust the right distance as needed */
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.searchSelect {
+  background-image: url("../../../assets/dropdownIcon.png");
+  background-repeat: no-repeat;
+  background-size: 16px;
+  background-position: right 10px center; /* Adjust as needed */
+}
+
+
+
+/* .css-1jy569b-MuiFormLabel-root-MuiInputLabel-root.Mui-focused */
+
+/* .css-1d3z3hw-MuiOutlinedInput-notchedOutline: {
+  border-color: green !important;
+} */

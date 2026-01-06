@@ -1,0 +1,51 @@
+.slider-card-container {
+    width: 370px;
+    height: 344px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    border: 1px solid #D4D2E3;
+    background: #FFF;
+    /* margin-right: 10px; */
+    
+}
+
+.card-discription {
+    color: #4B4B4B;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Body/Default */
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 323px;
+    margin-top: 20px;
+    /* 166.667% */
+}
+
+.card-discription-head {
+    color: #071D5B;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Text single/300/Bold */
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    /* 100% */
+    margin-top: 20px;
+}
+
+.card-discription-sub-head {
+    color: #8D8D8D;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    /* 112.5% */
+    margin-top: 20px;
+}

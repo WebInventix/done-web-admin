@@ -1,0 +1,9 @@
+.input {
+  outline: none;
+  border: 1.1px solid #66666659;
+  border-radius: 4px;
+  padding: 10px;
+}
+.input::placeholder {
+  color: #aaaaaa;
+}
